@@ -1,0 +1,112 @@
+h1, h2, p {
+    text-align: center;
+}
+
+body {
+    background-color: #DFD3C3;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 400;
+    padding: 20px;
+}
+/* styling - classes */
+
+.preço {
+    font-weight: 600;
+}
+
+.menu {
+    background-color: #F0ECE3;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.sabores, .sobremesa {
+    text-align: left;
+    width: 75%;
+}
+
+.preço {
+    text-align: right;
+    width: 25%;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+/* styling fundação*/
+.fundado {
+    font-style: italic;
+    font-weight: 600;
+}
+/*h1 & h2*/
+h1, h2 {
+    font-family: Paytone One, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+/* link do footer */
+.github {
+    text-decoration: underline;
+}
+/* Elemento anchor */
+a {
+    color: black;
+}
+
+a:hover {
+    color: #C7B198;
+}
+
+a:active {
+    color: #C7B198;
+}
+/* styling do hr */
+hr {
+    opacity: 0.2;
+    height: 2px;
+    background-color: #C7B198;
+    border-color: #C7B198;
+}
+/* hr inferior */
+.linha-baixo {
+    margin-top: 25px;
+}
+/* footer */
+
+footer {
+    font-size: 15px
+}
+
+.endereco {
+    margin-bottom: 5px;
+}
+
+/* Icones */
+
+.fa-mug-saucer {
+    color: black;
+    font-size: 25px;
+}
+
+.fa-cookie {
+    color: black;
+    font-size: 25px;
+}
+
